@@ -3,9 +3,11 @@ import tagsController from '../controllers/tag.controller';
 import articlesController from '../controllers/article.controller';
 import authController from '../controllers/auth.controller';
 import profileController from '../controllers/profile.controller';
+import pitcherController from '../controllers/pitcher.controller';
 
 const api = Router()
   .use(tagsController)
+  .use(pitcherController)
   .use(articlesController)
   .use(profileController)
   .use(authController);

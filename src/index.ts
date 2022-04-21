@@ -8,10 +8,6 @@ import swaggerDocument from '../docs/swagger.json';
 
 const app = express();
 
-/**
- * App Configuration
- */
-
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

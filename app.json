@@ -1,9 +1,9 @@
 {
-  "name": "RealWorld API",
-  "description": "Node / Express / Prisma API for RealWorld project",
-  "keywords": ["node", "express", "prisma", "realworld"],
-  "website": "https://gothinkster.github.io/realworld/",
-  "repository": "https://github.com/gothinkster/realworld",
+  "name": "fungo API",
+  "description": "Node / Express / TypeScript / Prisma API for fungo based on RealWorld project",
+  "keywords": ["node", "express", "prisma", "fungo"],
+  "website": "https://fungo.vercel.app/",
+  "repository": "https://github.com/edwardz8",
   "addons": ["heroku-postgresql"],
   "env": {
     "JWT_SECRET": {
